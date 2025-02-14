@@ -30,6 +30,7 @@ const navMenu=document.getElementById("nav-menu"),navLink=document.querySelector
 const btnn = document.getElementById("logobtn")
 
   btnn.addEventListener("click", () => {
-    aut.classList.toggle("opacity-[1]")
+    aut.classList.toggle("visible")
+     aut.classList.toggle("opacity-[1]")
     
   })
